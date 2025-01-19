@@ -1,0 +1,17 @@
+{% extends "emails/base.html" %} {% block title %}File Shared With You{%
+    endblock %} {% block content %}
+    <p>Hello {{ shared_with }},</p>
+    
+    <p>{{ owner }} has shared a file with you:</p>
+    
+    <ul>
+      <li>File: {{ file_name }}</li>
+      <li>Permission: {{ permission }}</li>
+      {% if expiry %}
+      <li>Expires: {{ expiry }}</li>
+      {% endif %}
+    </ul>
+    
+    <p>You can access this file by logging into your account.</p>
+    {% endblock %}
+    

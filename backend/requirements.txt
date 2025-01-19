@@ -1,0 +1,31 @@
+# Django and REST framework
+Django==4.2.7
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.0
+django-cors-headers==4.3.0
+
+# Authentication and Security
+pyotp==2.9.0
+cryptography==41.0.5
+bcrypt==4.0.1
+django-environ==0.11.2
+
+# File handling
+Pillow==10.1.0
+python-magic==0.4.27
+qrcode==7.4.2
+PyMuPDF==1.23.5
+
+# Database
+
+# Development tools
+python-dotenv==1.0.0
+pytest==7.4.3
+pytest-django==4.7.0
+coverage==7.3.2
+black==23.10.1
+flake8==6.1.0
+
+# Production
+gunicorn==21.2.0
+whitenoise==6.6.0 
